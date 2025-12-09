@@ -1,0 +1,18 @@
+:root {
+  --color-bg: #1f2937;
+  --color-surface: #374151;
+  --color-text: #f9fafb;
+  --color-muted: #6B7280;
+  --color-success: #059669;
+  --color-error: #EF4444;
+  --color-border: rgba(249,250,251,0.1);
+  --focus-ring: 0 0 0 3px rgba(5,150,105,0.3);
+}
+
+.visually-hidden {
+  position: absolute !important;
+  height: 1px; width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap;
+}
